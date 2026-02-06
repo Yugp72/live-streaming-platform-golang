@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/StreamingDashboard.build/master.swiftdeps"
+  },
+  "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/Sources/StreamingDashboard/ContentView.swift": {
+    "dependencies": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/StreamingDashboard.build/ContentView.d",
+    "object": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/StreamingDashboard.build/ContentView.swift.o",
+    "swiftmodule": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/StreamingDashboard.build/ContentView~partial.swiftmodule",
+    "swift-dependencies": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/StreamingDashboard.build/ContentView.swiftdeps"
+  },
+  "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/Sources/StreamingDashboard/StreamingDashboardApp.swift": {
+    "dependencies": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/StreamingDashboard.build/StreamingDashboardApp.d",
+    "object": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/StreamingDashboard.build/StreamingDashboardApp.swift.o",
+    "swiftmodule": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/StreamingDashboard.build/StreamingDashboardApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/StreamingDashboard.build/StreamingDashboardApp.swiftdeps"
+  },
+  "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/Sources/StreamingDashboard/StreamingEventManager.swift": {
+    "dependencies": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/StreamingDashboard.build/StreamingEventManager.d",
+    "object": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/StreamingDashboard.build/StreamingEventManager.swift.o",
+    "swiftmodule": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/StreamingDashboard.build/StreamingEventManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/StreamingDashboard.build/StreamingEventManager.swiftdeps"
+  }
+}

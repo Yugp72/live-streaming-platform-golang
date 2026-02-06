@@ -1,0 +1,27 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "messaging-engine",
+          "kind" : "fileSystem",
+          "location" : "/Users/yugpatel/Desktop/message/messaging-engine",
+          "name" : "MessagingEngine"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/yugpatel/Desktop/message/messaging-engine"
+        },
+        "subpath" : "messaging-engine"
+      }
+    ],
+    "prebuilts" : [
+
+    ]
+  },
+  "version" : 7
+}

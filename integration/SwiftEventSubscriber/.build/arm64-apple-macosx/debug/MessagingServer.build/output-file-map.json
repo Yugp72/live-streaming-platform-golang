@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer.build/master.swiftdeps"
+  },
+  "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingServer/main.swift": {
+    "dependencies": "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer.build/main.d",
+    "object": "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer.build/main.swift.o",
+    "swiftmodule": "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer.build/main.swiftdeps"
+  }
+}

@@ -1,0 +1,206 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "EventSubscriber-arm64-apple-macosx16.0-debug.exe": ["<EventSubscriber-arm64-apple-macosx16.0-debug.exe>"]
+  "EventSubscriber-arm64-apple-macosx16.0-debug.module": ["<EventSubscriber-arm64-apple-macosx16.0-debug.module>"]
+  "MessagingClient-arm64-apple-macosx16.0-debug.exe": ["<MessagingClient-arm64-apple-macosx16.0-debug.exe>"]
+  "MessagingClient-arm64-apple-macosx16.0-debug.module": ["<MessagingClient-arm64-apple-macosx16.0-debug.module>"]
+  "MessagingEngine-arm64-apple-macosx16.0-debug.module": ["<MessagingEngine-arm64-apple-macosx16.0-debug.module>"]
+  "MessagingServer-arm64-apple-macosx16.0-debug.exe": ["<MessagingServer-arm64-apple-macosx16.0-debug.exe>"]
+  "MessagingServer-arm64-apple-macosx16.0-debug.module": ["<MessagingServer-arm64-apple-macosx16.0-debug.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "main": ["<EventSubscriber-arm64-apple-macosx16.0-debug.exe>","<EventSubscriber-arm64-apple-macosx16.0-debug.module>"]
+  "test": ["<EventSubscriber-arm64-apple-macosx16.0-debug.exe>","<EventSubscriber-arm64-apple-macosx16.0-debug.module>"]
+default: "main"
+nodes:
+  "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/Sources/EventSubscriber/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber":
+    is-mutated: true
+  "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient":
+    is-mutated: true
+  "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer":
+    is-mutated: true
+commands:
+  "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber-entitlement.plist":
+    tool: write-auxiliary-file
+    inputs: ["<entitlement-plist>","<com.apple.security.get-task-allow>"]
+    outputs: ["/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber-entitlement.plist"]
+    description: "Write auxiliary file /Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber-entitlement.plist"
+
+  "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/Sources/EventSubscriber/main.swift"]
+    outputs: ["/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber.build/sources"]
+    description: "Write auxiliary file /Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber.build/sources"
+
+  "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber.product/Objects.LinkFileList":
+    tool: write-auxiliary-file
+    inputs: ["<link-file-list>","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber.build/main.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Client.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Connection.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Message.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/MessageQueue.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Protocol.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Server.swift.o"]
+    outputs: ["/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber.product/Objects.LinkFileList"]
+    description: "Write auxiliary file /Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber.product/Objects.LinkFileList"
+
+  "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient-entitlement.plist":
+    tool: write-auxiliary-file
+    inputs: ["<entitlement-plist>","<com.apple.security.get-task-allow>"]
+    outputs: ["/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient-entitlement.plist"]
+    description: "Write auxiliary file /Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient-entitlement.plist"
+
+  "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingClient/main.swift"]
+    outputs: ["/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient.build/sources"]
+    description: "Write auxiliary file /Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient.build/sources"
+
+  "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient.product/Objects.LinkFileList":
+    tool: write-auxiliary-file
+    inputs: ["<link-file-list>","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient.build/main.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Client.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Connection.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Message.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/MessageQueue.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Protocol.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Server.swift.o"]
+    outputs: ["/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient.product/Objects.LinkFileList"]
+    description: "Write auxiliary file /Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient.product/Objects.LinkFileList"
+
+  "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/Client.swift","/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/Connection.swift","/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/Message.swift","/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/MessageQueue.swift","/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/Protocol.swift","/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/Server.swift"]
+    outputs: ["/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/sources"]
+    description: "Write auxiliary file /Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/sources"
+
+  "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer-entitlement.plist":
+    tool: write-auxiliary-file
+    inputs: ["<entitlement-plist>","<com.apple.security.get-task-allow>"]
+    outputs: ["/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer-entitlement.plist"]
+    description: "Write auxiliary file /Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer-entitlement.plist"
+
+  "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingServer/main.swift"]
+    outputs: ["/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer.build/sources"]
+    description: "Write auxiliary file /Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer.build/sources"
+
+  "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer.product/Objects.LinkFileList":
+    tool: write-auxiliary-file
+    inputs: ["<link-file-list>","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Client.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Connection.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Message.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/MessageQueue.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Protocol.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Server.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer.build/main.swift.o"]
+    outputs: ["/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer.product/Objects.LinkFileList"]
+    description: "Write auxiliary file /Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer.product/Objects.LinkFileList"
+
+  "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/Library/Developer/CommandLineTools/usr/bin/swiftc"]
+    outputs: ["/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+
+  "<EventSubscriber-arm64-apple-macosx16.0-debug.exe>":
+    tool: phony
+    inputs: ["<EventSubscriber-arm64-apple-macosx16.0-debug.exe-CodeSigning>"]
+    outputs: ["<EventSubscriber-arm64-apple-macosx16.0-debug.exe>"]
+
+  "<EventSubscriber-arm64-apple-macosx16.0-debug.module>":
+    tool: phony
+    inputs: ["/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber.build/main.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules/EventSubscriber.swiftmodule"]
+    outputs: ["<EventSubscriber-arm64-apple-macosx16.0-debug.module>"]
+
+  "<MessagingClient-arm64-apple-macosx16.0-debug.exe>":
+    tool: phony
+    inputs: ["<MessagingClient-arm64-apple-macosx16.0-debug.exe-CodeSigning>"]
+    outputs: ["<MessagingClient-arm64-apple-macosx16.0-debug.exe>"]
+
+  "<MessagingClient-arm64-apple-macosx16.0-debug.module>":
+    tool: phony
+    inputs: ["/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient.build/main.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules/MessagingClient.swiftmodule"]
+    outputs: ["<MessagingClient-arm64-apple-macosx16.0-debug.module>"]
+
+  "<MessagingEngine-arm64-apple-macosx16.0-debug.module>":
+    tool: phony
+    inputs: ["/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Client.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Connection.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Message.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/MessageQueue.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Protocol.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Server.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules/MessagingEngine.swiftmodule"]
+    outputs: ["<MessagingEngine-arm64-apple-macosx16.0-debug.module>"]
+
+  "<MessagingServer-arm64-apple-macosx16.0-debug.exe>":
+    tool: phony
+    inputs: ["<MessagingServer-arm64-apple-macosx16.0-debug.exe-CodeSigning>"]
+    outputs: ["<MessagingServer-arm64-apple-macosx16.0-debug.exe>"]
+
+  "<MessagingServer-arm64-apple-macosx16.0-debug.module>":
+    tool: phony
+    inputs: ["/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer.build/main.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules/MessagingServer.swiftmodule"]
+    outputs: ["<MessagingServer-arm64-apple-macosx16.0-debug.module>"]
+
+  "C.EventSubscriber-arm64-apple-macosx16.0-debug.exe":
+    tool: shell
+    inputs: ["/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber.build/main.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Client.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Connection.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Message.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/MessageQueue.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Protocol.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Server.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber.product/Objects.LinkFileList"]
+    outputs: ["/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber"]
+    description: "Linking ./.build/arm64-apple-macosx/debug/EventSubscriber"
+    args: ["/Library/Developer/CommandLineTools/usr/bin/swiftc","-L","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug","-o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber","-module-name","EventSubscriber","-Xlinker","-no_warn_duplicate_libraries","-emit-executable","-Xlinker","-alias","-Xlinker","_EventSubscriber_main","-Xlinker","_main","-Xlinker","-rpath","-Xlinker","@loader_path","@/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber.product/Objects.LinkFileList","-target","arm64-apple-macosx13.0","-Xlinker","-add_ast_path","-Xlinker","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules/EventSubscriber.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules/MessagingEngine.swiftmodule","-F","/Library/Developer/CommandLineTools/Library/Developer/Frameworks","-sdk","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-g","-Xlinker","-rpath","-Xlinker","/Library/Developer/CommandLineTools/Library/Developer/Frameworks"]
+
+  "C.EventSubscriber-arm64-apple-macosx16.0-debug.exe-entitlements":
+    tool: shell
+    inputs: ["/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber-entitlement.plist"]
+    outputs: ["<EventSubscriber-arm64-apple-macosx16.0-debug.exe-CodeSigning>"]
+    description: "Applying debug entitlements to ./.build/arm64-apple-macosx/debug/EventSubscriber"
+    args: ["codesign","--force","--sign","-","--entitlements","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber-entitlement.plist","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber"]
+
+  "C.EventSubscriber-arm64-apple-macosx16.0-debug.module":
+    tool: shell
+    inputs: ["/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/Sources/EventSubscriber/main.swift","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules/MessagingEngine.swiftmodule","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber.build/sources"]
+    outputs: ["/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber.build/main.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules/EventSubscriber.swiftmodule"]
+    description: "Compiling Swift Module 'EventSubscriber' (1 sources)"
+    args: ["/Library/Developer/CommandLineTools/usr/bin/swiftc","-module-name","EventSubscriber","-emit-dependencies","-emit-module","-emit-module-path","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules/EventSubscriber.swiftmodule","-output-file-map","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber.build/output-file-map.json","-incremental","-c","@/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber.build/sources","-I","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx13.0","-enable-batch-mode","-index-store-path","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j8","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-Xfrontend","-entry-point-function-name","-Xfrontend","EventSubscriber_main","-swift-version","5","-F","/Library/Developer/CommandLineTools/Library/Developer/Frameworks","-sdk","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-g","-Xcc","-isysroot","-Xcc","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-Xcc","-fPIC","-Xcc","-g","-package-name","swifteventsubscriber"]
+
+  "C.MessagingClient-arm64-apple-macosx16.0-debug.exe":
+    tool: shell
+    inputs: ["/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient.build/main.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Client.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Connection.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Message.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/MessageQueue.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Protocol.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Server.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient.product/Objects.LinkFileList"]
+    outputs: ["/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient"]
+    description: "Linking ./.build/arm64-apple-macosx/debug/MessagingClient"
+    args: ["/Library/Developer/CommandLineTools/usr/bin/swiftc","-L","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug","-o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient","-module-name","MessagingClient","-Xlinker","-no_warn_duplicate_libraries","-emit-executable","-Xlinker","-alias","-Xlinker","_MessagingClient_main","-Xlinker","_main","-Xlinker","-rpath","-Xlinker","@loader_path","@/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient.product/Objects.LinkFileList","-target","arm64-apple-macosx13.0","-Xlinker","-add_ast_path","-Xlinker","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules/MessagingClient.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules/MessagingEngine.swiftmodule","-F","/Library/Developer/CommandLineTools/Library/Developer/Frameworks","-sdk","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-g","-Xlinker","-rpath","-Xlinker","/Library/Developer/CommandLineTools/Library/Developer/Frameworks"]
+
+  "C.MessagingClient-arm64-apple-macosx16.0-debug.exe-entitlements":
+    tool: shell
+    inputs: ["/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient-entitlement.plist"]
+    outputs: ["<MessagingClient-arm64-apple-macosx16.0-debug.exe-CodeSigning>"]
+    description: "Applying debug entitlements to ./.build/arm64-apple-macosx/debug/MessagingClient"
+    args: ["codesign","--force","--sign","-","--entitlements","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient-entitlement.plist","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient"]
+
+  "C.MessagingClient-arm64-apple-macosx16.0-debug.module":
+    tool: shell
+    inputs: ["/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingClient/main.swift","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules/MessagingEngine.swiftmodule","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient.build/sources"]
+    outputs: ["/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient.build/main.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules/MessagingClient.swiftmodule"]
+    description: "Compiling Swift Module 'MessagingClient' (1 sources)"
+    args: ["/Library/Developer/CommandLineTools/usr/bin/swiftc","-module-name","MessagingClient","-emit-dependencies","-emit-module","-emit-module-path","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules/MessagingClient.swiftmodule","-output-file-map","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient.build/output-file-map.json","-incremental","-c","@/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient.build/sources","-I","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx13.0","-enable-batch-mode","-index-store-path","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j8","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-Xfrontend","-entry-point-function-name","-Xfrontend","MessagingClient_main","-swift-version","5","-F","/Library/Developer/CommandLineTools/Library/Developer/Frameworks","-sdk","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-g","-Xcc","-isysroot","-Xcc","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-Xcc","-fPIC","-Xcc","-g","-package-name","messaging_engine"]
+
+  "C.MessagingEngine-arm64-apple-macosx16.0-debug.module":
+    tool: shell
+    inputs: ["/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/Client.swift","/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/Connection.swift","/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/Message.swift","/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/MessageQueue.swift","/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/Protocol.swift","/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/Server.swift","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/sources"]
+    outputs: ["/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Client.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Connection.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Message.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/MessageQueue.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Protocol.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Server.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules/MessagingEngine.swiftmodule"]
+    description: "Compiling Swift Module 'MessagingEngine' (6 sources)"
+    args: ["/Library/Developer/CommandLineTools/usr/bin/swiftc","-module-name","MessagingEngine","-emit-dependencies","-emit-module","-emit-module-path","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules/MessagingEngine.swiftmodule","-output-file-map","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/output-file-map.json","-parse-as-library","-incremental","-c","@/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/sources","-I","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx13.0","-enable-batch-mode","-index-store-path","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j8","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/MessagingEngine-Swift.h","-swift-version","5","-F","/Library/Developer/CommandLineTools/Library/Developer/Frameworks","-sdk","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-g","-Xcc","-isysroot","-Xcc","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-Xcc","-fPIC","-Xcc","-g","-package-name","messaging_engine"]
+
+  "C.MessagingServer-arm64-apple-macosx16.0-debug.exe":
+    tool: shell
+    inputs: ["/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Client.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Connection.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Message.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/MessageQueue.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Protocol.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Server.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer.build/main.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer.product/Objects.LinkFileList"]
+    outputs: ["/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer"]
+    description: "Linking ./.build/arm64-apple-macosx/debug/MessagingServer"
+    args: ["/Library/Developer/CommandLineTools/usr/bin/swiftc","-L","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug","-o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer","-module-name","MessagingServer","-Xlinker","-no_warn_duplicate_libraries","-emit-executable","-Xlinker","-alias","-Xlinker","_MessagingServer_main","-Xlinker","_main","-Xlinker","-rpath","-Xlinker","@loader_path","@/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer.product/Objects.LinkFileList","-target","arm64-apple-macosx13.0","-Xlinker","-add_ast_path","-Xlinker","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules/MessagingEngine.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules/MessagingServer.swiftmodule","-F","/Library/Developer/CommandLineTools/Library/Developer/Frameworks","-sdk","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-g","-Xlinker","-rpath","-Xlinker","/Library/Developer/CommandLineTools/Library/Developer/Frameworks"]
+
+  "C.MessagingServer-arm64-apple-macosx16.0-debug.exe-entitlements":
+    tool: shell
+    inputs: ["/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer-entitlement.plist"]
+    outputs: ["<MessagingServer-arm64-apple-macosx16.0-debug.exe-CodeSigning>"]
+    description: "Applying debug entitlements to ./.build/arm64-apple-macosx/debug/MessagingServer"
+    args: ["codesign","--force","--sign","-","--entitlements","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer-entitlement.plist","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer"]
+
+  "C.MessagingServer-arm64-apple-macosx16.0-debug.module":
+    tool: shell
+    inputs: ["/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingServer/main.swift","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules/MessagingEngine.swiftmodule","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer.build/sources"]
+    outputs: ["/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer.build/main.swift.o","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules/MessagingServer.swiftmodule"]
+    description: "Compiling Swift Module 'MessagingServer' (1 sources)"
+    args: ["/Library/Developer/CommandLineTools/usr/bin/swiftc","-module-name","MessagingServer","-emit-dependencies","-emit-module","-emit-module-path","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules/MessagingServer.swiftmodule","-output-file-map","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer.build/output-file-map.json","-incremental","-c","@/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer.build/sources","-I","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx13.0","-enable-batch-mode","-index-store-path","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j8","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-Xfrontend","-entry-point-function-name","-Xfrontend","MessagingServer_main","-swift-version","5","-F","/Library/Developer/CommandLineTools/Library/Developer/Frameworks","-sdk","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-g","-Xcc","-isysroot","-Xcc","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-Xcc","-fPIC","-Xcc","-g","-package-name","messaging_engine"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/Sources/EventSubscriber/","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/Package.swift","/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

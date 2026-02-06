@@ -1,0 +1,8 @@
+go 1.21
+
+use (
+	./cchls-integrated
+	./hlsnew-integrated
+	./messaging-client
+	./streaming-events
+)

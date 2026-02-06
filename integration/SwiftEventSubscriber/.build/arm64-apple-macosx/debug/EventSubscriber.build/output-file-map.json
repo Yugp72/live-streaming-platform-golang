@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber.build/master.swiftdeps"
+  },
+  "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/Sources/EventSubscriber/main.swift": {
+    "dependencies": "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber.build/main.d",
+    "object": "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber.build/main.swift.o",
+    "swiftmodule": "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber.build/main.swiftdeps"
+  }
+}

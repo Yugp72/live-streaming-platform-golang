@@ -1,0 +1,868 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.EventSubscriber-arm64-apple-macosx16.0-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber.build/sources",
+      "importPath" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/Sources/EventSubscriber/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules/MessagingEngine.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "EventSubscriber",
+      "moduleOutputPath" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules/EventSubscriber.swiftmodule",
+      "objects" : [
+        "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "EventSubscriber_main",
+        "-swift-version",
+        "5",
+        "-F",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "swifteventsubscriber"
+      ],
+      "outputFileMapPath" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules/EventSubscriber.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/Sources/EventSubscriber/main.swift"
+      ],
+      "tempsPath" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.MessagingClient-arm64-apple-macosx16.0-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient.build/sources",
+      "importPath" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingClient/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules/MessagingEngine.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "MessagingClient",
+      "moduleOutputPath" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules/MessagingClient.swiftmodule",
+      "objects" : [
+        "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "MessagingClient_main",
+        "-swift-version",
+        "5",
+        "-F",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "messaging_engine"
+      ],
+      "outputFileMapPath" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules/MessagingClient.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingClient/main.swift"
+      ],
+      "tempsPath" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.MessagingEngine-arm64-apple-macosx16.0-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/sources",
+      "importPath" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/Client.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/Connection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/Message.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/MessageQueue.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/Protocol.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/Server.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "MessagingEngine",
+      "moduleOutputPath" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules/MessagingEngine.swiftmodule",
+      "objects" : [
+        "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Client.swift.o",
+        "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Connection.swift.o",
+        "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Message.swift.o",
+        "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/MessageQueue.swift.o",
+        "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Protocol.swift.o",
+        "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Server.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/MessagingEngine-Swift.h",
+        "-swift-version",
+        "5",
+        "-F",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "messaging_engine"
+      ],
+      "outputFileMapPath" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Client.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Connection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Message.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/MessageQueue.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Protocol.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Server.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules/MessagingEngine.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/Client.swift",
+        "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/Connection.swift",
+        "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/Message.swift",
+        "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/MessageQueue.swift",
+        "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/Protocol.swift",
+        "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/Server.swift"
+      ],
+      "tempsPath" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.MessagingServer-arm64-apple-macosx16.0-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer.build/sources",
+      "importPath" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingServer/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules/MessagingEngine.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "MessagingServer",
+      "moduleOutputPath" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules/MessagingServer.swiftmodule",
+      "objects" : [
+        "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "MessagingServer_main",
+        "-swift-version",
+        "5",
+        "-F",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "messaging_engine"
+      ],
+      "outputFileMapPath" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules/MessagingServer.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingServer/main.swift"
+      ],
+      "tempsPath" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "EventSubscriber" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "EventSubscriber",
+      "-package-name",
+      "swifteventsubscriber",
+      "-incremental",
+      "-c",
+      "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/Sources/EventSubscriber/main.swift",
+      "-I",
+      "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "EventSubscriber_main",
+      "-swift-version",
+      "5",
+      "-F",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "swifteventsubscriber",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ],
+    "MessagingClient" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "MessagingClient",
+      "-package-name",
+      "messaging_engine",
+      "-incremental",
+      "-c",
+      "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingClient/main.swift",
+      "-I",
+      "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "MessagingClient_main",
+      "-swift-version",
+      "5",
+      "-F",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "messaging_engine",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ],
+    "MessagingEngine" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "MessagingEngine",
+      "-package-name",
+      "messaging_engine",
+      "-incremental",
+      "-c",
+      "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/Client.swift",
+      "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/Connection.swift",
+      "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/Message.swift",
+      "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/MessageQueue.swift",
+      "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/Protocol.swift",
+      "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/Server.swift",
+      "-I",
+      "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/MessagingEngine-Swift.h",
+      "-swift-version",
+      "5",
+      "-F",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "messaging_engine",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ],
+    "MessagingServer" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "MessagingServer",
+      "-package-name",
+      "messaging_engine",
+      "-incremental",
+      "-c",
+      "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingServer/main.swift",
+      "-I",
+      "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "MessagingServer_main",
+      "-swift-version",
+      "5",
+      "-F",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "messaging_engine",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "EventSubscriber" : [
+      "MessagingEngine"
+    ],
+    "MessagingClient" : [
+      "MessagingEngine"
+    ],
+    "MessagingEngine" : [
+
+    ],
+    "MessagingServer" : [
+      "MessagingEngine"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "enableAllTraits" : false
+  },
+  "writeCommands" : {
+    "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber-entitlement.plist"
+    },
+    "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/Sources/EventSubscriber/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber.build/sources"
+    },
+    "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Client.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Connection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Message.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/MessageQueue.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Protocol.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Server.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/EventSubscriber.product/Objects.LinkFileList"
+    },
+    "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient-entitlement.plist"
+    },
+    "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingClient/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient.build/sources"
+    },
+    "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Client.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Connection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Message.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/MessageQueue.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Protocol.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Server.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingClient.product/Objects.LinkFileList"
+    },
+    "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/Client.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/Connection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/Message.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/MessageQueue.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/Protocol.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/Server.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/sources"
+    },
+    "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer-entitlement.plist"
+    },
+    "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingServer/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer.build/sources"
+    },
+    "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Client.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Connection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Message.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/MessageQueue.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Protocol.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingEngine.build/Server.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/MessagingServer.product/Objects.LinkFileList"
+    },
+    "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/yugpatel/Desktop/message/integration/SwiftEventSubscriber/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+    }
+  }
+}

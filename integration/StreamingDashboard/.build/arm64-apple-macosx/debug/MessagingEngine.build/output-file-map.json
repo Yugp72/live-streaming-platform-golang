@@ -1,0 +1,41 @@
+{
+  "": {
+    "swift-dependencies": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/MessagingEngine.build/master.swiftdeps"
+  },
+  "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/Client.swift": {
+    "dependencies": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/MessagingEngine.build/Client.d",
+    "object": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/MessagingEngine.build/Client.swift.o",
+    "swiftmodule": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/MessagingEngine.build/Client~partial.swiftmodule",
+    "swift-dependencies": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/MessagingEngine.build/Client.swiftdeps"
+  },
+  "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/Connection.swift": {
+    "dependencies": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/MessagingEngine.build/Connection.d",
+    "object": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/MessagingEngine.build/Connection.swift.o",
+    "swiftmodule": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/MessagingEngine.build/Connection~partial.swiftmodule",
+    "swift-dependencies": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/MessagingEngine.build/Connection.swiftdeps"
+  },
+  "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/Message.swift": {
+    "dependencies": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/MessagingEngine.build/Message.d",
+    "object": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/MessagingEngine.build/Message.swift.o",
+    "swiftmodule": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/MessagingEngine.build/Message~partial.swiftmodule",
+    "swift-dependencies": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/MessagingEngine.build/Message.swiftdeps"
+  },
+  "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/MessageQueue.swift": {
+    "dependencies": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/MessagingEngine.build/MessageQueue.d",
+    "object": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/MessagingEngine.build/MessageQueue.swift.o",
+    "swiftmodule": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/MessagingEngine.build/MessageQueue~partial.swiftmodule",
+    "swift-dependencies": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/MessagingEngine.build/MessageQueue.swiftdeps"
+  },
+  "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/Protocol.swift": {
+    "dependencies": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/MessagingEngine.build/Protocol.d",
+    "object": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/MessagingEngine.build/Protocol.swift.o",
+    "swiftmodule": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/MessagingEngine.build/Protocol~partial.swiftmodule",
+    "swift-dependencies": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/MessagingEngine.build/Protocol.swiftdeps"
+  },
+  "/Users/yugpatel/Desktop/message/messaging-engine/Sources/MessagingEngine/Server.swift": {
+    "dependencies": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/MessagingEngine.build/Server.d",
+    "object": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/MessagingEngine.build/Server.swift.o",
+    "swiftmodule": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/MessagingEngine.build/Server~partial.swiftmodule",
+    "swift-dependencies": "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/MessagingEngine.build/Server.swiftdeps"
+  }
+}

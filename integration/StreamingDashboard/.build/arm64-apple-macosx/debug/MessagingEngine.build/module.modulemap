@@ -1,0 +1,4 @@
+module MessagingEngine {
+    header "/Users/yugpatel/Desktop/message/integration/StreamingDashboard/.build/arm64-apple-macosx/debug/MessagingEngine.build/MessagingEngine-Swift.h"
+    requires objc
+}
